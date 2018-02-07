@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="9220" started-at="2018-02-07T12:17:06Z" finished-at="2018-02-07T12:17:15Z">
+    <groups>
+    </groups>
+    <test name="Hello World" duration-ms="9220" started-at="2018-02-07T12:17:06Z" finished-at="2018-02-07T12:17:15Z">
+      <class name="com.wipro.practice.SeleniumPractice.HelloWorldTest">
+        <test-method status="PASS" signature="initializeExtentReport()[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12]" name="initializeExtentReport" is-config="true" duration-ms="234" started-at="2018-02-07T17:47:05Z" finished-at="2018-02-07T17:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExtentReport -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-02-07T17:47:06Z" finished-at="2018-02-07T17:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testExecute(java.lang.String)[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12]" name="testExecute" duration-ms="9197" started-at="2018-02-07T17:47:06Z" finished-at="2018-02-07T17:47:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello World!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExecute -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-07T17:47:15Z" finished-at="2018-02-07T17:47:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExecute status=SUCCESS method=HelloWorldTest.testExecute(java.lang.String)[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testExecute1()[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12]" name="testExecute1" duration-ms="0" started-at="2018-02-07T17:47:15Z" finished-at="2018-02-07T17:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExecute1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-07T17:47:15Z" finished-at="2018-02-07T17:47:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExecute1 status=SUCCESS method=HelloWorldTest.testExecute1()[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="deinitializeExtentReport()[pri:0, instance:com.wipro.practice.SeleniumPractice.HelloWorldTest@77b52d12]" name="deinitializeExtentReport" is-config="true" duration-ms="262" started-at="2018-02-07T17:47:15Z" finished-at="2018-02-07T17:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deinitializeExtentReport -->
+      </class> <!-- com.wipro.practice.SeleniumPractice.HelloWorldTest -->
+    </test> <!-- Hello World -->
+  </suite> <!-- My Test Suite -->
+</testng-results>

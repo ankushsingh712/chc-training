@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Test Suite]">
+  <test name="Hello World(failed)">
+    <parameter name="expected" value="Hello World!"/>
+    <classes>
+      <class name="com.wipro.practice.SeleniumPractice.HelloWorldTest">
+        <methods>
+          <include name="testExecute1"/>
+          <include name="testExecute" invocation-numbers="0"/>
+          <include name="initializeExtentReport"/>
+        </methods>
+      </class> <!-- com.wipro.practice.SeleniumPractice.HelloWorldTest -->
+    </classes>
+  </test> <!-- Hello World(failed) -->
+</suite> <!-- Failed suite [My Test Suite] -->
