@@ -14,7 +14,7 @@ public class HelloWorldTest extends ExtentReportBaseClass {
 	 public HelloWorld helloWorld;
 
 	    /**
-	     * below methods to test execute method of hello world
+	     * below methods to test execute method of hello world test
 	     */
 	    @Test
 	    @Parameters({"expected"})
