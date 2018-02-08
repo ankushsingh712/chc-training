@@ -34,6 +34,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+<dependency>
+    <groupId>com.beust</groupId>
+    <artifactId>jcommander</artifactId>
+    <version>1.69</version>
+</dependency>
+    
      <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
